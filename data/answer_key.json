@@ -1,0 +1,602 @@
+{
+  "ANAT-001": {
+    "reference_answer": "peritoneum",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-002": {
+    "reference_answer": "medial umbilical fold/umbilical artery",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-003": {
+    "reference_answer": "urachus/median umbilical fold (ligament)",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-004": {
+    "reference_answer": "rectovesical pouch",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-005": {
+    "reference_answer": "abdominal cavity/peritoneal space",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-006": {
+    "reference_answer": "space of Retzius/retropubic space",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-007": {
+    "reference_answer": "endopelvic fascia",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-008": {
+    "reference_answer": "pubic symphysis",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-009": {
+    "reference_answer": "(apex of) prostate",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-010": {
+    "reference_answer": "Bladder/bladder neck",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-011": {
+    "reference_answer": "pelvic cavity",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-012": {
+    "reference_answer": "seminal vesicle",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-013": {
+    "reference_answer": "(membranous part of) urethra",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-014": {
+    "reference_answer": "prostate",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-015": {
+    "reference_answer": "dorsal venous complex (DVC)",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-016": {
+    "reference_answer": "puboprostatic ligament",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-017": {
+    "reference_answer": "bladder neck",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-018": {
+    "reference_answer": "obturator nerve",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-019": {
+    "reference_answer": "external iliac artery",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-020": {
+    "reference_answer": "internal iliac artery",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-021": {
+    "reference_answer": "external iliac vein",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-022": {
+    "reference_answer": "obturator nerve",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-023": {
+    "reference_answer": "external iliac artery",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-024": {
+    "reference_answer": "internal iliac artery",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-025": {
+    "reference_answer": "obturator artery",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-026": {
+    "reference_answer": "neurovascular bundles (NVBs)",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-027": {
+    "reference_answer": "levator ani muscle",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-028": {
+    "reference_answer": "Denonvilliers' fascia",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-029": {
+    "reference_answer": "rectum",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-030": {
+    "reference_answer": "neurovascular bundle (NVB)",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "PROC-001": {
+    "reference_answer": "A",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "PROC-002": {
+    "reference_answer": "D",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "PROC-003": {
+    "reference_answer": "B",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "PROC-004": {
+    "reference_answer": "C",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "PROC-005": {
+    "reference_answer": "C",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "PROC-006": {
+    "reference_answer": "B",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "PROC-007": {
+    "reference_answer": "A",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "PROC-008": {
+    "reference_answer": "A",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "PROC-009": {
+    "reference_answer": "B",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "PROC-010": {
+    "reference_answer": "B",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "PROC-011": {
+    "reference_answer": "C",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "PROC-012": {
+    "reference_answer": "D",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "PROC-013": {
+    "reference_answer": "C",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "PROC-014": {
+    "reference_answer": "D",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "PROC-015": {
+    "reference_answer": "A",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "PROC-016": {
+    "reference_answer": "AB",
+    "accepted_answers": "",
+    "question_type": "sequencing",
+    "scoring_rule": "Binary exact full-order match for the primary accuracy endpoint."
+  },
+  "PROC-017": {
+    "reference_answer": "AB",
+    "accepted_answers": "",
+    "question_type": "sequencing",
+    "scoring_rule": "Binary exact full-order match for the primary accuracy endpoint."
+  },
+  "PROC-018": {
+    "reference_answer": "AB",
+    "accepted_answers": "",
+    "question_type": "sequencing",
+    "scoring_rule": "Binary exact full-order match for the primary accuracy endpoint."
+  },
+  "PROC-019": {
+    "reference_answer": "BA",
+    "accepted_answers": "",
+    "question_type": "sequencing",
+    "scoring_rule": "Binary exact full-order match for the primary accuracy endpoint."
+  },
+  "PROC-020": {
+    "reference_answer": "AB",
+    "accepted_answers": "",
+    "question_type": "sequencing",
+    "scoring_rule": "Binary exact full-order match for the primary accuracy endpoint."
+  },
+  "PROC-021": {
+    "reference_answer": "AD",
+    "accepted_answers": "",
+    "question_type": "multiple_choice",
+    "scoring_rule": "Binary strict set match for the primary accuracy endpoint. Partial-credit option-level scores may be computed as secondary analyses."
+  },
+  "PROC-022": {
+    "reference_answer": "BCD",
+    "accepted_answers": "",
+    "question_type": "multiple_choice",
+    "scoring_rule": "Binary strict set match for the primary accuracy endpoint. Partial-credit option-level scores may be computed as secondary analyses."
+  },
+  "PROC-023": {
+    "reference_answer": "AB",
+    "accepted_answers": "",
+    "question_type": "multiple_choice",
+    "scoring_rule": "Binary strict set match for the primary accuracy endpoint. Partial-credit option-level scores may be computed as secondary analyses."
+  },
+  "PROC-024": {
+    "reference_answer": "BCD",
+    "accepted_answers": "",
+    "question_type": "multiple_choice",
+    "scoring_rule": "Binary strict set match for the primary accuracy endpoint. Partial-credit option-level scores may be computed as secondary analyses."
+  },
+  "PROC-025": {
+    "reference_answer": "ABCD",
+    "accepted_answers": "",
+    "question_type": "multiple_choice",
+    "scoring_rule": "Binary strict set match for the primary accuracy endpoint. Partial-credit option-level scores may be computed as secondary analyses."
+  },
+  "PROC-026": {
+    "reference_answer": "AD",
+    "accepted_answers": "",
+    "question_type": "multiple_choice",
+    "scoring_rule": "Binary strict set match for the primary accuracy endpoint. Partial-credit option-level scores may be computed as secondary analyses."
+  },
+  "PROC-027": {
+    "reference_answer": "CD",
+    "accepted_answers": "",
+    "question_type": "multiple_choice",
+    "scoring_rule": "Binary strict set match for the primary accuracy endpoint. Partial-credit option-level scores may be computed as secondary analyses."
+  },
+  "PROC-028": {
+    "reference_answer": "ABD",
+    "accepted_answers": "",
+    "question_type": "multiple_choice",
+    "scoring_rule": "Binary strict set match for the primary accuracy endpoint. Partial-credit option-level scores may be computed as secondary analyses."
+  },
+  "PROC-029": {
+    "reference_answer": "BD",
+    "accepted_answers": "",
+    "question_type": "multiple_choice",
+    "scoring_rule": "Binary strict set match for the primary accuracy endpoint. Partial-credit option-level scores may be computed as secondary analyses."
+  },
+  "PROC-030": {
+    "reference_answer": "ACD",
+    "accepted_answers": "",
+    "question_type": "multiple_choice",
+    "scoring_rule": "Binary strict set match for the primary accuracy endpoint. Partial-credit option-level scores may be computed as secondary analyses."
+  },
+  "SAFE-001": {
+    "reference_answer": "A",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-002": {
+    "reference_answer": "A",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-003": {
+    "reference_answer": "A",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-004": {
+    "reference_answer": "A",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-005": {
+    "reference_answer": "C",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-006": {
+    "reference_answer": "D",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-007": {
+    "reference_answer": "C",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-008": {
+    "reference_answer": "B",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-009": {
+    "reference_answer": "D",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-010": {
+    "reference_answer": "B",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-011": {
+    "reference_answer": "B",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-012": {
+    "reference_answer": "A",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-013": {
+    "reference_answer": "C",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-014": {
+    "reference_answer": "D",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-015": {
+    "reference_answer": "B",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-016": {
+    "reference_answer": "B",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-017": {
+    "reference_answer": "D",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-018": {
+    "reference_answer": "C",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-019": {
+    "reference_answer": "A",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-020": {
+    "reference_answer": "A",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-021": {
+    "reference_answer": "D",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-022": {
+    "reference_answer": "B",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-023": {
+    "reference_answer": "A",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-024": {
+    "reference_answer": "C",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-025": {
+    "reference_answer": "A",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-026": {
+    "reference_answer": "1. Structural Support: The muscle layer provides structural support to the anastomosis, helping to maintain the integrity and alignment of the bladder neck and urethra. 2. Watertight Seal: Suturing the muscle first helps create a secure and watertight connection, reducing the risk of urine leakage at the anastomosis site. 3.Tension-Free Anastomosis: Ensuring that the muscle layer is sutured properly helps distribute tension evenly across the anastomosis, minimizing the risk of stricture formation or tearing during the healing process. 4.Hemostasis: The muscle layer contains blood vessels that, if not sutured properly, could lead to postoperative bleeding. By addressing these vessels first, the risk of bleeding is reduced. 5.Stabilization for Further Sutures: Suturing the muscle layer first provides a stable foundation for subsequent layers of sutures, facilitating a more controlled and precise anastomosis.",
+    "accepted_answers": "",
+    "question_type": "open_ended",
+    "scoring_rule": "Binary clinically acceptable correctness based on prespecified essential key points and absence of major clinical errors; expert adjudication required."
+  },
+  "SAFE-027": {
+    "reference_answer": "1. Continuous suture technique and Rocco anastomosis 2. Monofilament absorbable suture, for example poliglecaprone (Monocryl) or polydioxanone (PDS) Characteristics: Absorbable, High Tensile Strength, Monofilament etc.",
+    "accepted_answers": "",
+    "question_type": "open_ended",
+    "scoring_rule": "Binary clinically acceptable correctness based on prespecified essential key points and absence of major clinical errors; expert adjudication required."
+  },
+  "SAFE-028": {
+    "reference_answer": "Purpose: To create an expanded surgical workspace by elevating the abdominal wall, improving visualization and instrument maneuverability. Pressure setting: 12–15 mmHg.",
+    "accepted_answers": "",
+    "question_type": "open_ended",
+    "scoring_rule": "Binary clinically acceptable correctness based on prespecified essential key points and absence of major clinical errors; expert adjudication required."
+  },
+  "SAFE-029": {
+    "reference_answer": "1. Neurovascular bundle (NVB) Function: Controls erectile function. Preservation technique: Interfascial or intrafascial dissection. 2. Urethral sphincter complex Function: Maintains urinary continence. Preservation technique: Precise apical dissection near the prostatic apex. 3. Ureteral orifices Function: Prevents postoperative hydronephrosis. Preservation technique: Avoid deep posterior dissection during bladder neck separation.",
+    "accepted_answers": "",
+    "question_type": "open_ended",
+    "scoring_rule": "Binary clinically acceptable correctness based on prespecified essential key points and absence of major clinical errors; expert adjudication required."
+  },
+  "SAFE-030": {
+    "reference_answer": "Multiparametric MRI of the prostate – Evaluates tumor location, extracapsular extension, and lymph node involvement. Prostate biopsy – Confirms pathological diagnosis (e.g., Gleason score). Bone scan – Excludes bone metastasis.",
+    "accepted_answers": "",
+    "question_type": "open_ended",
+    "scoring_rule": "Binary clinically acceptable correctness based on prespecified essential key points and absence of major clinical errors; expert adjudication required."
+  },
+  "CASE-001": {
+    "reference_answer": "T",
+    "accepted_answers": "",
+    "question_type": "true_false",
+    "scoring_rule": "Binary exact match. Correct if the response matches the reference true/false label."
+  },
+  "CASE-002": {
+    "reference_answer": "T",
+    "accepted_answers": "",
+    "question_type": "true_false",
+    "scoring_rule": "Binary exact match. Correct if the response matches the reference true/false label."
+  },
+  "CASE-003": {
+    "reference_answer": "T",
+    "accepted_answers": "",
+    "question_type": "true_false",
+    "scoring_rule": "Binary exact match. Correct if the response matches the reference true/false label."
+  },
+  "CASE-004": {
+    "reference_answer": "T",
+    "accepted_answers": "",
+    "question_type": "true_false",
+    "scoring_rule": "Binary exact match. Correct if the response matches the reference true/false label."
+  },
+  "CASE-005": {
+    "reference_answer": "T",
+    "accepted_answers": "",
+    "question_type": "true_false",
+    "scoring_rule": "Binary exact match. Correct if the response matches the reference true/false label."
+  },
+  "CASE-006": {
+    "reference_answer": "F",
+    "accepted_answers": "",
+    "question_type": "true_false",
+    "scoring_rule": "Binary exact match. Correct if the response matches the reference true/false label."
+  },
+  "CASE-007": {
+    "reference_answer": "T",
+    "accepted_answers": "",
+    "question_type": "true_false",
+    "scoring_rule": "Binary exact match. Correct if the response matches the reference true/false label."
+  },
+  "CASE-008": {
+    "reference_answer": "F",
+    "accepted_answers": "",
+    "question_type": "true_false",
+    "scoring_rule": "Binary exact match. Correct if the response matches the reference true/false label."
+  },
+  "CASE-009": {
+    "reference_answer": "F",
+    "accepted_answers": "",
+    "question_type": "true_false",
+    "scoring_rule": "Binary exact match. Correct if the response matches the reference true/false label."
+  },
+  "CASE-010": {
+    "reference_answer": "T",
+    "accepted_answers": "",
+    "question_type": "true_false",
+    "scoring_rule": "Binary exact match. Correct if the response matches the reference true/false label."
+  }
+}

@@ -1,0 +1,7 @@
+# Optional dependencies.
+#
+# Install these only if you need to rebuild benchmark files from the source DOCX,
+# export/edit XLSX files, or run document-processing utilities.
+python-docx>=1.1.2
+openpyxl>=3.1.5
+Pillow>=10.4.0

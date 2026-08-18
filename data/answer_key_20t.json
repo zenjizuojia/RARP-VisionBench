@@ -1,0 +1,122 @@
+{
+  "ANAT-008": {
+    "reference_answer": "pubic symphysis",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-012": {
+    "reference_answer": "seminal vesicle",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-017": {
+    "reference_answer": "bladder neck",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-013": {
+    "reference_answer": "(membranous part of) urethra",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "ANAT-019": {
+    "reference_answer": "external iliac artery",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "PROC-003": {
+    "reference_answer": "B",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "PROC-006": {
+    "reference_answer": "B",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "PROC-009": {
+    "reference_answer": "B",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "PROC-021": {
+    "reference_answer": "AD",
+    "accepted_answers": "",
+    "question_type": "multiple_choice",
+    "scoring_rule": "Binary strict set match for the primary accuracy endpoint. Partial-credit option-level scores may be computed as secondary analyses."
+  },
+  "PROC-023": {
+    "reference_answer": "AB",
+    "accepted_answers": "",
+    "question_type": "multiple_choice",
+    "scoring_rule": "Binary strict set match for the primary accuracy endpoint. Partial-credit option-level scores may be computed as secondary analyses."
+  },
+  "PROC-026": {
+    "reference_answer": "AD",
+    "accepted_answers": "",
+    "question_type": "multiple_choice",
+    "scoring_rule": "Binary strict set match for the primary accuracy endpoint. Partial-credit option-level scores may be computed as secondary analyses."
+  },
+  "SAFE-004": {
+    "reference_answer": "A",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-006": {
+    "reference_answer": "D",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-007": {
+    "reference_answer": "C",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "SAFE-013": {
+    "reference_answer": "C",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "CASE-001": {
+    "reference_answer": "T",
+    "accepted_answers": "",
+    "question_type": "true_false",
+    "scoring_rule": "Binary exact match. Correct if the response matches the reference true/false label."
+  },
+  "CASE-003": {
+    "reference_answer": "T",
+    "accepted_answers": "",
+    "question_type": "true_false",
+    "scoring_rule": "Binary exact match. Correct if the response matches the reference true/false label."
+  },
+  "CASE-005": {
+    "reference_answer": "T",
+    "accepted_answers": "",
+    "question_type": "true_false",
+    "scoring_rule": "Binary exact match. Correct if the response matches the reference true/false label."
+  },
+  "CASE-006": {
+    "reference_answer": "F",
+    "accepted_answers": "",
+    "question_type": "true_false",
+    "scoring_rule": "Binary exact match. Correct if the response matches the reference true/false label."
+  },
+  "CASE-009": {
+    "reference_answer": "F",
+    "accepted_answers": "",
+    "question_type": "true_false",
+    "scoring_rule": "Binary exact match. Correct if the response matches the reference true/false label."
+  }
+}

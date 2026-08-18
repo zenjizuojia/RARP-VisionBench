@@ -1,0 +1,20 @@
+{
+  "n_items": 100,
+  "by_domain": {
+    "Anatomical Landmark Recognition": 30,
+    "Surgical Step Identification and Sequencing": 30,
+    "Operative Safety and Technical Principles": 30,
+    "Clinical Decision-Making for RARP Eligibility": 10
+  },
+  "by_question_type": {
+    "free_text": 30,
+    "single_choice": 40,
+    "sequencing": 5,
+    "multiple_choice": 10,
+    "open_ended": 5,
+    "true_false": 10
+  },
+  "image_based": 60,
+  "text_only": 40,
+  "needs_review": 0
+}

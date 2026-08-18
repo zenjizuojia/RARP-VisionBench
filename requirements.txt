@@ -1,0 +1,9 @@
+# Runtime requirements for running the benchmark and DeepSeek judging.
+#
+# The current evaluation pipeline uses only the Python standard library.
+# You do not need to install extra packages to run:
+#   python eval/run_eval.py ...
+#   python eval/judge_outputs.py ...
+#
+# Optional dependencies for rebuilding the benchmark from DOCX/XLSX are listed in:
+#   requirements-optional.txt

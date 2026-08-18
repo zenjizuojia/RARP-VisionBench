@@ -1,0 +1,26 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Local model and judge outputs
+results/**/*.jsonl
+results/**/*.csv
+results/**/*.xlsx
+results/**/*.log
+!results/**/.gitkeep
+
+# Local scratch outputs
+eval_outputs/
+模型输出/
+
+# Temporary inspection artifacts
+data/*contact_sheet*.jpg
+data/*contact_sheet*.png
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
