@@ -1,0 +1,182 @@
+{
+  "E-ANAT-01": {
+    "reference_answer": "peritoneum",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "E-ANAT-02": {
+    "reference_answer": "rectovesical pouch",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "E-ANAT-03": {
+    "reference_answer": "urachus/median umbilical fold (ligament)",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "E-ANAT-04": {
+    "reference_answer": "pubic symphysis",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "E-ANAT-05": {
+    "reference_answer": "bladder neck",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "E-ANAT-06": {
+    "reference_answer": "external iliac artery",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "E-ANAT-07": {
+    "reference_answer": "external iliac vein",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "E-ANAT-08": {
+    "reference_answer": "prostate",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "E-ANAT-09": {
+    "reference_answer": "dorsal venous complex (DVC)",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "E-ANAT-10": {
+    "reference_answer": "Denonvilliers' fascia",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "E-ANAT-11": {
+    "reference_answer": "endopelvic fascia",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "E-ANAT-12": {
+    "reference_answer": "seminal vesicle",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "E-ANAT-13": {
+    "reference_answer": "urethra",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "E-ANAT-14": {
+    "reference_answer": "obturator nerve",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "E-ANAT-15": {
+    "reference_answer": "neurovascular bundle (NVB)",
+    "accepted_answers": "",
+    "question_type": "free_text",
+    "scoring_rule": "Binary clinically acceptable match against the reference answer and accepted synonyms; ambiguous responses require expert adjudication."
+  },
+  "E-PROC-SC-01": {
+    "reference_answer": "B",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "E-PROC-SC-02": {
+    "reference_answer": "B",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "E-PROC-SC-03": {
+    "reference_answer": "D",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "E-PROC-SC-04": {
+    "reference_answer": "C",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "E-PROC-SC-05": {
+    "reference_answer": "A",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "E-PROC-SC-06": {
+    "reference_answer": "D",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "E-PROC-SC-07": {
+    "reference_answer": "C",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "E-PROC-SC-08": {
+    "reference_answer": "A",
+    "accepted_answers": "",
+    "question_type": "single_choice",
+    "scoring_rule": "Binary exact match. Correct if the selected option letter matches the reference answer."
+  },
+  "E-PROC-SEQ-01": {
+    "reference_answer": "AB",
+    "accepted_answers": "",
+    "question_type": "sequencing",
+    "scoring_rule": "Binary exact full-order match for the primary accuracy endpoint."
+  },
+  "E-PROC-SEQ-02": {
+    "reference_answer": "AB",
+    "accepted_answers": "",
+    "question_type": "sequencing",
+    "scoring_rule": "Binary exact full-order match for the primary accuracy endpoint."
+  },
+  "E-PROC-MC-01": {
+    "reference_answer": "ACD",
+    "accepted_answers": "",
+    "question_type": "multiple_choice",
+    "scoring_rule": "Binary strict set match for the primary accuracy endpoint. Partial-credit option-level scores may be computed as secondary analyses."
+  },
+  "E-PROC-MC-02": {
+    "reference_answer": "ABCD",
+    "accepted_answers": "",
+    "question_type": "multiple_choice",
+    "scoring_rule": "Binary strict set match for the primary accuracy endpoint. Partial-credit option-level scores may be computed as secondary analyses."
+  },
+  "E-PROC-MC-03": {
+    "reference_answer": "BD",
+    "accepted_answers": "",
+    "question_type": "multiple_choice",
+    "scoring_rule": "Binary strict set match for the primary accuracy endpoint. Partial-credit option-level scores may be computed as secondary analyses."
+  },
+  "E-PROC-MC-04": {
+    "reference_answer": "BD",
+    "accepted_answers": "",
+    "question_type": "multiple_choice",
+    "scoring_rule": "Binary strict set match for the primary accuracy endpoint. Partial-credit option-level scores may be computed as secondary analyses."
+  },
+  "E-PROC-MC-05": {
+    "reference_answer": "ACD",
+    "accepted_answers": "",
+    "question_type": "multiple_choice",
+    "scoring_rule": "Binary strict set match for the primary accuracy endpoint. Partial-credit option-level scores may be computed as secondary analyses."
+  }
+}

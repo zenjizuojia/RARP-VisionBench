@@ -19,11 +19,19 @@ RARP-VisionBench/
 │   ├── questions_full.csv
 │   ├── questions_full.xlsx
 │   ├── answer_key.json
+│   ├── questions_smoke.jsonl
 │   ├── questions_20t.jsonl
-│   └── answer_key_20t.json
+│   ├── answer_key_20t.json
+│   ├── questions_full_external.jsonl
+│   ├── questions_full_external.csv
+│   ├── questions_full_external.xlsx
+│   ├── answer_key_external.json
+│   ├── image_metadata_external.csv
+│   └── image_sources_external.csv
 ├── images/
 │   ├── annotated/
-│   └── raw_extracted/
+│   ├── raw_extracted/
+│   └── external/
 ├── prompts/
 │   ├── direct_answer.txt
 │   └── structured_rationale.txt
@@ -60,6 +68,8 @@ Additional subsets:
 
 - `data/questions_20t.jsonl`: 20-question subset for repeated-temperature or repeated-sampling experiments
 - `data/answer_key_20t.json`: answer key for the 20-question subset
+- `data/questions_full_external.jsonl`: 30-item external validation set (see below)
+- `data/answer_key_external.json`: answer key for the external validation set
 
 ## Question Domains
 
@@ -267,6 +277,31 @@ See `docs/scoring_rubric.md` for the scoring policy. In brief:
 - Explanation reliability is scored as 0, 1, or 2.
 
 The LLM judge receives the question text, model answer, model explanation when available, and reference answer. Benchmark images are not sent to the judge by default.
+
+## External Validation Set
+
+An independent external validation set built from the public RARPL dataset (Zenodo `10.5281/zenodo.15228400`, CC BY 4.0; 10 patients, 32 clips, da Vinci Xi) is provided in the same format as the development benchmark:
+
+- `data/questions_full_external.jsonl` / `.csv` / `.xlsx`: 30 items (15 anatomical free-text and 15 procedural), with item IDs prefixed `E-`.
+- `data/answer_key_external.json`: reference answers and scoring rules.
+- `data/image_metadata_external.csv`: mapping of `images/external/image1`–`image47` to items.
+- `data/image_sources_external.csv`: provenance of every external image (RARPL clip and frame index).
+- `images/external/`: 47 annotated frames.
+
+The external set is image-only by design: it covers the anatomical and procedural domains but contains no text-only items and no clinical decision-making items, because those require guideline material and patient-level clinical data that a public video dataset does not provide. It is always analysed separately and is never pooled with the 100 development items.
+
+The same scripts are used, with the external questions and answer key:
+
+```bash
+python eval/run_eval.py --questions data/questions_full_external.jsonl \
+  --prompt prompts/direct_answer.txt --repeats 5 \
+  --out-dir results/model_outputs_external
+
+python eval/judge_outputs.py --questions data/questions_full_external.jsonl \
+  --answers data/answer_key_external.json \
+  --outputs-glob "results/model_outputs_external/*.jsonl" --mode answer \
+  --out-dir results/judged_outputs_external
+```
 
 ## Ethical and Clinical Use
 

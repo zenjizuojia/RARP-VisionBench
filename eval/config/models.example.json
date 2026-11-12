@@ -55,6 +55,20 @@
       "model": "gemini-3-flash-preview",
       "api_key_env": "OUYIAI_API_KEY",
       "base_url": "https://api.rcouyi.com/v1"
+    },
+    {
+      "alias": "claude-sonnet-4-5-ouyiai",
+      "provider": "openai_compatible",
+      "model": "claude-sonnet-4-5",
+      "api_key_env": "OUYIAI_API_KEY",
+      "base_url": "https://api.rcouyi.com/v1"
+    },
+    {
+      "alias": "mistral-large-3-aihubmix",
+      "provider": "openai_compatible",
+      "model": "mistral-large-3",
+      "api_key_env": "AIHUBMIX_API_KEY",
+      "base_url": "https://aihubmix.com/v1"
     }
   ]
 }
