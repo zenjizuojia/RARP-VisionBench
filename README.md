@@ -19,7 +19,6 @@ RARP-VisionBench/
 │   ├── questions_full.csv
 │   ├── questions_full.xlsx
 │   ├── answer_key.json
-│   ├── questions_smoke.jsonl
 │   ├── questions_20t.jsonl
 │   ├── answer_key_20t.json
 │   ├── questions_full_external.jsonl
@@ -30,7 +29,6 @@ RARP-VisionBench/
 │   └── image_sources_external.csv
 ├── images/
 │   ├── annotated/
-│   ├── raw_extracted/
 │   └── external/
 ├── prompts/
 │   ├── direct_answer.txt
@@ -142,9 +140,12 @@ cp .env.example .env
 Example environment variables:
 
 ```text
+OPENAI_API_KEY=your_openai_api_key
+GEMINI_API_KEY=your_gemini_api_key
+ANTHROPIC_API_KEY=your_anthropic_api_key
+LLAMA_API_KEY=your_llama_api_key
+MISTRAL_API_KEY=your_mistral_api_key
 DASHSCOPE_API_KEY=your_dashscope_api_key
-OUYIAI_API_KEY=your_ouyiai_api_key
-AIHUBMIX_API_KEY=your_aihubmix_api_key
 DEEPSEEK_API_KEY=your_deepseek_api_key
 ```
 
@@ -154,7 +155,7 @@ Model definitions are configured in:
 eval/config/models.example.json
 ```
 
-You can edit model aliases, model names, base URLs, and API-key environment variable names as needed. The provider layer supports OpenAI-compatible chat-completions APIs.
+Each entry specifies an alias, the provider (`openai`, `openai_compatible`, `anthropic` or `gemini`), the model name and the environment variable holding the API key; OpenAI-compatible entries also take a `base_url`. Aliases, model names, base URLs and key variable names can all be edited. Native Anthropic and Google Gemini endpoints are supported in addition to OpenAI-compatible chat-completions APIs.
 
 ## Full Benchmark Evaluation
 
@@ -164,7 +165,7 @@ Run answer-only evaluation with four repeats:
 python eval/run_eval.py \
   --questions data/questions_full.jsonl \
   --prompt prompts/direct_answer.txt \
-  --models qwen3-vl-plus-aliyun gpt-5-aihubmix gemini-3-flash-preview-ouyiai \
+  --models qwen3-vl-plus gpt-5 gemini-3-flash-preview \
   --repeats 4 \
   --temperature 0 \
   --max-tokens 2048 \
@@ -179,7 +180,7 @@ Run one answer-with-explanation pass:
 python eval/run_eval.py \
   --questions data/questions_full.jsonl \
   --prompt prompts/structured_rationale.txt \
-  --models qwen3-vl-plus-aliyun gpt-5-aihubmix gemini-3-flash-preview-ouyiai \
+  --models qwen3-vl-plus gpt-5 gemini-3-flash-preview \
   --repeats 1 \
   --temperature 0 \
   --max-tokens 2048 \
@@ -198,7 +199,7 @@ Answer-only outputs are judged for binary correctness:
 python eval/judge_outputs.py \
   --mode answer \
   --outputs-glob "results/model_outputs/*direct_answer.jsonl" \
-  --models qwen3-vl-plus-aliyun gpt-5-aihubmix gemini-3-flash-preview-ouyiai \
+  --models qwen3-vl-plus gpt-5 gemini-3-flash-preview \
   --progress-every 10
 ```
 
@@ -208,7 +209,7 @@ Answer-with-explanation outputs are judged for both answer correctness and expla
 python eval/judge_outputs.py \
   --mode rationale \
   --outputs-glob "results/model_outputs/*structured_rationale.jsonl" \
-  --models qwen3-vl-plus-aliyun gpt-5-aihubmix gemini-3-flash-preview-ouyiai \
+  --models qwen3-vl-plus gpt-5 gemini-3-flash-preview \
   --progress-every 10
 ```
 
@@ -220,7 +221,7 @@ After judging, generate Excel matrices:
 
 ```bash
 python eval/summarize_judged_outputs.py \
-  --models qwen3-vl-plus-aliyun gpt-5-aihubmix gemini-3-flash-preview-ouyiai \
+  --models qwen3-vl-plus gpt-5 gemini-3-flash-preview \
   --out results/judged_outputs/rarp_visionbench_summary_matrices.xlsx
 ```
 
@@ -233,7 +234,7 @@ python eval/run_eval.py \
   --questions data/questions_20t.jsonl \
   --prompt prompts/direct_answer.txt \
   --out-dir results/model_outputs_20t \
-  --models qwen3-vl-plus-aliyun gpt-5-aihubmix gemini-3-flash-preview-ouyiai \
+  --models qwen3-vl-plus gpt-5 gemini-3-flash-preview \
   --repeats 5 \
   --temperature 0 \
   --max-tokens 2048 \
@@ -244,7 +245,7 @@ python eval/judge_outputs.py \
   --answers data/answer_key_20t.json \
   --outputs-glob "results/model_outputs_20t/*.jsonl" \
   --out-dir results/judged_outputs_20t \
-  --models qwen3-vl-plus-aliyun gpt-5-aihubmix gemini-3-flash-preview-ouyiai \
+  --models qwen3-vl-plus gpt-5 gemini-3-flash-preview \
   --mode answer \
   --progress-every 5
 
@@ -252,7 +253,7 @@ python eval/summarize_judged_outputs.py \
   --questions data/questions_20t.jsonl \
   --answers data/answer_key_20t.json \
   --judged-dir results/judged_outputs_20t \
-  --models qwen3-vl-plus-aliyun gpt-5-aihubmix gemini-3-flash-preview-ouyiai \
+  --models qwen3-vl-plus gpt-5 gemini-3-flash-preview \
   --out results/judged_outputs_20t/rarp_20t_summary_matrices.xlsx
 ```
 

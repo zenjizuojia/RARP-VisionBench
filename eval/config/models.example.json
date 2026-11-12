@@ -1,74 +1,43 @@
 {
   "models": [
     {
-      "alias": "qwen3-vl-flash-aliyun",
-      "provider": "openai_compatible",
-      "model": "qwen3-vl-flash",
-      "api_key_env": "DASHSCOPE_API_KEY",
-      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1"
-    },
-    {
-      "alias": "gpt-5-ouyiai",
-      "provider": "openai_compatible",
+      "alias": "gpt-5",
+      "provider": "openai",
       "model": "gpt-5",
-      "api_key_env": "OUYIAI_API_KEY",
-      "base_url": "https://api.rcouyi.com/v1"
+      "api_key_env": "OPENAI_API_KEY"
     },
     {
-      "alias": "llama-4-maverick-aihubmix",
+      "alias": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "model": "gemini-3-flash-preview",
+      "api_key_env": "GEMINI_API_KEY"
+    },
+    {
+      "alias": "claude-sonnet-4-5",
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-5",
+      "api_key_env": "ANTHROPIC_API_KEY"
+    },
+    {
+      "alias": "llama-4-maverick",
       "provider": "openai_compatible",
       "model": "llama-4-maverick",
-      "api_key_env": "AIHUBMIX_API_KEY",
-      "base_url": "https://aihubmix.com/v1"
+      "api_key_env": "LLAMA_API_KEY",
+      "base_url": "https://api.llama.com/compat/v1"
     },
     {
-      "alias": "gpt-4o-mini-aihubmix",
+      "alias": "mistral-large-3",
       "provider": "openai_compatible",
-      "model": "gpt-4o-mini",
-      "api_key_env": "AIHUBMIX_API_KEY",
-      "base_url": "https://aihubmix.com/v1"
+      "model": "mistral-large-3",
+      "api_key_env": "MISTRAL_API_KEY",
+      "base_url": "https://api.mistral.ai/v1"
     },
     {
-      "alias": "qwen3-vl-plus-aliyun",
+      "alias": "qwen3-vl-plus",
       "provider": "openai_compatible",
       "model": "qwen3-vl-plus",
       "api_key_env": "DASHSCOPE_API_KEY",
       "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1"
-    },
-    {
-      "alias": "gpt-5-aihubmix",
-      "provider": "openai_compatible",
-      "model": "gpt-5",
-      "api_key_env": "AIHUBMIX_API_KEY",
-      "base_url": "https://aihubmix.com/v1"
-    },
-    {
-      "alias": "gemini-2.5-flash-ouyiai",
-      "provider": "openai_compatible",
-      "model": "gemini-2.5-flash",
-      "api_key_env": "OUYIAI_API_KEY",
-      "base_url": "https://api.rcouyi.com/v1"
-    },
-    {
-      "alias": "gemini-3-flash-preview-ouyiai",
-      "provider": "openai_compatible",
-      "model": "gemini-3-flash-preview",
-      "api_key_env": "OUYIAI_API_KEY",
-      "base_url": "https://api.rcouyi.com/v1"
-    },
-    {
-      "alias": "claude-sonnet-4-5-ouyiai",
-      "provider": "openai_compatible",
-      "model": "claude-sonnet-4-5",
-      "api_key_env": "OUYIAI_API_KEY",
-      "base_url": "https://api.rcouyi.com/v1"
-    },
-    {
-      "alias": "mistral-large-3-aihubmix",
-      "provider": "openai_compatible",
-      "model": "mistral-large-3",
-      "api_key_env": "AIHUBMIX_API_KEY",
-      "base_url": "https://aihubmix.com/v1"
     }
   ]
 }

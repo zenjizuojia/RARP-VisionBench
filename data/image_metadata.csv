@@ -90,5 +90,5 @@ images/annotated/image9.png,ANAT-010;ANAT-011,2,annotated,normalized benchmark-f
 images/annotated/image90.png,PROC-030,1,annotated,normalized benchmark-facing image
 images/annotated/image91.png,PROC-030,1,annotated,normalized benchmark-facing image
 images/annotated/image92.png,PROC-030,1,annotated,normalized benchmark-facing image
-images/raw_extracted/image52.png,PROC-020,1,annotated,original extracted source image
-images/raw_extracted/image53.png,PROC-020,1,annotated,original extracted source image
+images/annotated/image93.png,PROC-020,1,annotated,benchmark-facing image
+images/annotated/image94.png,PROC-020,1,annotated,benchmark-facing image

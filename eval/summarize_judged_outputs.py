@@ -11,12 +11,12 @@ from typing import Any
 
 
 MODEL_LABELS = {
-    "qwen3-vl-flash-aliyun": "qwen",
-    "llama-4-maverick-aihubmix": "llama",
-    "gpt-4o-mini-aihubmix": "gpt4o",
-    "qwen3-vl-plus-aliyun": "qwenplus",
-    "gpt-5-aihubmix": "gpt5",
-    "gemini-3-flash-preview-ouyiai": "gemini3",
+    "gpt-5": "gpt5",
+    "gemini-3-flash-preview": "gemini3",
+    "claude-sonnet-4-5": "claude",
+    "llama-4-maverick": "llama",
+    "mistral-large-3": "mistral",
+    "qwen3-vl-plus": "qwenplus",
 }
 
 
